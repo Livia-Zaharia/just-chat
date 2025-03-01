@@ -144,6 +144,11 @@ sudo apt-get install -y python3 python3-pip
 # Install Podman Compose
 pip3 install podman-compose
 ```
+if there is error in instalating try 
+``` bash
+sudo apt --fix-broken install
+```
+and after try to install podman again.
 
 For other Linux distributions, refer to:
 - [Podman Installation Guide](https://podman.io/docs/installation)
